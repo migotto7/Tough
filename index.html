@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Manjari"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background"></div>
+      <header>
+        <img class="logo" src="./images/Logo.png" />
+        <nav>
+          <a href="#">main</a>
+          <a href="#">about</a>
+          <a href="#">shop</a>
+          <a href="#">sing in</a>
+          <a href="#">search</a>
+          <a href="#">Shopping cart</a>
+        </nav>
+      </header>
+
+      <section class="middle-section">
+        <div class="description">
+          <p>Loja</p>
+          <p>Esportiva</p>
+          <p>Online</p>
+        </div>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <a href="#" class="product-showcase-container">
+              <img src="./images/white.png" alt="Nature Image #1" />
+            </a>
+          </li>
+          <li class="slide">
+            <a href="#" class="product-showcase-container">
+              <img src="./images/black.png" alt="Nature Image #2" />
+            </a>
+          </li>
+          <li class="slide">
+            <a href="#" class="product-showcase-container">
+              <img src="./images/Mercurial.png" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="end-section">
+        <div product-cards class="product-cards">
+          <a href="#" class="product-card disabled-product-card">
+            <img src="./images/white.png" />
+            <div class="product-card-description">
+              <p>Mercurial white</p>
+              <p>R$ 1800</p>
+            </div>
+          </a>
+          <a href="#" class="product-card">
+            <img src="./images/Mercurial.png" />
+            <div class="product-card-description">
+              <p>Mercurial special</p>
+              <p>R$ 2000</p>
+            </div>
+          </a>
+          <a href="#" class="product-card">
+            <img src="./images/black.png" />
+            <div class="product-card-description">
+              <p>Mercurial black</p>
+              <p>R$ 1000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="carrousel-control">
+          <button class="carousel-button prev" id="prev-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              fill="currentColor"
+              class="bi bi-chevron-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+              />
+            </svg>
+          </button>
+          <ol indicators class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- <p class="carousel-position-indicator">.</p>
+          <p class="carousel-position-indicator">.</p>
+          <p class="carousel-position-indicator">.</p> -->
+          <button class="carousel-button next" id="next-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

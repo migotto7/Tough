@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/favicon" href="/images/favicon.ico">
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,13 +16,14 @@
       rel="stylesheet"
     />
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Tough</title>
   </head>
   <body>
     <div class="container">
-      <div class="background"></div>
       <header>
-        <img class="logo" src="./images/Logo.png" />
+        <a href="#">
+          <img class="logo" src="./images/Logo.png" />
+        </a>
         <nav>
           <a href="#">main</a>
           <a href="#">about</a>
@@ -40,17 +42,17 @@
         </div>
         <ul data-slides>
           <li class="slide" data-active>
-            <a href="#" class="product-showcase-container">
+            <a href="pages/product-view/product-view.html?bootId=1" class="product-showcase-container">
               <img src="./images/white.png" alt="Nature Image #1" />
             </a>
           </li>
           <li class="slide">
-            <a href="#" class="product-showcase-container">
+            <a href="pages/product-view/product-view.html?bootId=3" class="product-showcase-container">
               <img src="./images/black.png" alt="Nature Image #2" />
             </a>
           </li>
           <li class="slide">
-            <a href="#" class="product-showcase-container">
+            <a href="pages/product-view/product-view.html?bootId=2" class="product-showcase-container">
               <img src="./images/Mercurial.png" />
             </a>
           </li>
@@ -59,21 +61,21 @@
 
       <section class="end-section">
         <div product-cards class="product-cards">
-          <a href="#" class="product-card disabled-product-card">
+          <a href="pages/product-view/product-view.html?bootId=1" class="product-card disabled-product-card">
             <img src="./images/white.png" />
             <div class="product-card-description">
               <p>Mercurial white</p>
               <p>R$ 1800</p>
             </div>
           </a>
-          <a href="#" class="product-card">
+          <a href="pages/product-view/product-view.html?bootId=2" class="product-card">
             <img src="./images/Mercurial.png" />
             <div class="product-card-description">
               <p>Mercurial special</p>
               <p>R$ 2000</p>
             </div>
           </a>
-          <a href="#" class="product-card">
+          <a href="pages/product-view/product-view.html?bootId=3" class="product-card">
             <img src="./images/black.png" />
             <div class="product-card-description">
               <p>Mercurial black</p>

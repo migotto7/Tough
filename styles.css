@@ -30,7 +30,7 @@ header a {
 }
 
 .middle-section {
-  padding: 32px 16px 10px 16px;
+  padding: 32px 30px 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,8 +40,6 @@ header a {
   font-family: "Manjari";
   font-size: 64px;
   font-weight: 100;
-  width: 50vw;
-  padding: auto;
 }
 
 .slide {
@@ -70,7 +68,7 @@ header a {
 }
 
 .end-section {
-  padding: 32px 16px 0px 16px;
+  padding: 32px 0px 0px 30px;
   display: flex;
 }
 
@@ -82,7 +80,7 @@ header a {
 
 
 .product-cards img {
-  max-height: 10vh;
+  max-height: 7vh;
 }
 
 .product-card {
@@ -96,6 +94,12 @@ header a {
   color: #000;
   font-size: 12px;
   text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product-card-description{
+  font-size: 15px;
 }
 
 .disabled-product-card {
@@ -142,4 +146,29 @@ header a {
 }
 .carousel-indicators li.active {
   background: rgba(0, 0, 0, 0.6);
+}
+
+.footer{
+  width: 100%;
+  height: 430px;
+  background-color: #000;
+  margin-top: 100px;
+}
+
+.divMap{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0px
+}
+
+.map{
+  height: 250px;
+  width: 40%;
+}
+
+.video{
+  border: 1px solid #FFF;
+  height: 250px;
+  width: 40%;
 }
